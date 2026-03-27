@@ -57,7 +57,7 @@ train.py        — model, optimizer, training loop (agent modifies this)
 program.md      — agent instructions
 pyproject.toml  — dependencies
 ```
-
+正在开发统一文件管理版本
 ## Design choices
 
 - **Single file to modify.** The agent only touches `train.py`. This keeps the scope manageable and diffs reviewable.
